@@ -26,7 +26,7 @@ accept_button.click()
 
 # User's input of recipe
 driver.implicitly_wait(2)
-desired_recipe = input("Which recepie would you like to try?: ")
+desired_recipe = input("Which recipe would you like to try?: ")
 
 # Find element to start searching
 input_element = driver.find_element(By.CLASS_NAME, "gLFyf")
